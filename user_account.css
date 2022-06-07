@@ -1,0 +1,642 @@
+.name_logout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+.name_logout h4 {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.account_log_out_btn {
+    width: 15%;
+    padding: 8px;
+    font-size: 19px;
+    background: #081F2c;
+    border-radius: 18px;
+    font-weight: 600;
+    border: 1px solid black;
+    cursor: pointer;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.details_section {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+
+}
+
+.sub_btn {
+    border: none;
+    background: #FFFFFF;
+    font-weight: 600;
+    font-size: 24px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.PH_btn {
+    border: none;
+    background: #FFFFFF;
+    color: #777777b3;
+    font-weight: 600;
+    font-size: 24px;
+    cursor: pointer;
+    letter-spacing: 1px;
+
+}
+
+.MD_btn {
+
+    border: none;
+    background: #FFFFFF;
+    color: #777777b3;
+    font-weight: 600;
+    font-size: 24px;
+    cursor: pointer;
+    letter-spacing: 1px;
+
+}
+
+.my_account_div {
+
+    padding-bottom: 40px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subs_section {
+    background: #CFDAE0;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.subs_section a {
+    background: #08152C;
+    color: white;
+    border-radius: 25px;
+
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    cursor: pointer;
+
+
+    margin-top: 20px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.subs_section h4 {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+}
+
+.subscription_list {
+    margin-top: 100px;
+    width: 24%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgb(0 0 0 / 10%);
+}
+
+.sub_list_left_image {
+    height: 130px;
+}
+
+#sub_list_title {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.cancel_subscription {
+    margin-top: 20px;
+}
+
+.cancel_subscription button {
+    background: #08152C;
+    color: white;
+    border-radius: 25px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 20px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.purchase_section {
+    background: #CFDAE0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-around;
+    display: none;
+    text-align: center;
+}
+
+#no_purchase_text {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+}
+
+.visit_shop button {
+    background: #08152C;
+    color: white;
+    border-radius: 25px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    cursor: pointer;
+
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.purchase_item_image img {
+    height: 130px;
+}
+
+.purchase_item_title {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#purchase_p {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.purchase_history {
+
+    text-align: center;
+    margin-top: 100px;
+    width: 24%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgb(0 0 0 / 10%);
+}
+
+.my_details_section {
+    background: #CFDAE0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.details_section_info {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgb(0 0 0 / 10%);
+}
+
+.date_CVC {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.address_info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.details_section_info input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: #F0F5F8;
+    border-radius: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#DPM_text {
+    margin-bottom: 30px;
+}
+
+#billing_text {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.btn_submt {
+    width: 45%;
+    padding: 7px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #081F2c;
+    color: white;
+}
+
+.btn_Submt {
+    width: 45%;
+    padding: 7px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #081F2c;
+    color: white;
+}
+
+.btn_cancel {
+    width: 45%;
+    padding: 7px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #FFFFFF;
+}
+
+.btn_Cancel {
+    width: 45%;
+    padding: 7px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #FFFFFF;
+}
+
+.buttons_diV {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.shipping_address {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgb(0 0 0 / 10%);
+}
+
+.shipping_address input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: #F0F5F8;
+    border-radius: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+#DSA_text {
+    margin-bottom: 35px;
+}
+
+#TN_text {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.flag_number {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.email_section {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 4px 4px 10px rgb(0 0 0 / 10%);
+}
+
+.edit_button {
+    width: 25%;
+    padding: 8px;
+    font-size: 19px;
+    background: #FFFFFF;
+    border-radius: 18px;
+    font-weight: 600;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.email_section input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: #F0F5F8;
+    border-radius: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.edit_btn_div {
+    text-align: end;
+    margin-top: 25px;
+}
+
+.save_cancel_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.save_Btn {
+    width: 45%;
+    padding: 7px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #081F2c;
+    color: white;
+}
+
+.cancel_Btn {
+    width: 45%;
+    padding: 7px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #FFFFFF;
+}
+
+.change_email {
+    display: none;
+}
+
+.password_section {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 4px 4px 10px rgb(0 0 0 / 10%);
+}
+
+.password_section h4 {
+    margin-bottom: 30px;
+}
+
+.edit_button_pass_div {
+    text-align: end;
+    margin-top: 25px;
+}
+
+.edit_button_pass {
+    width: 25%;
+    padding: 8px;
+    font-size: 19px;
+    background: #FFFFFF;
+    border-radius: 18px;
+    font-weight: 600;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.change_pass {
+    margin-top: 20px;
+    display: none;
+}
+
+.password_section input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: #F0F5F8;
+    border-radius: 18px;
+
+    margin-bottom: -18px;
+}
+
+#Eye_Icon, #Eye_Icon2 {
+    margin-top: -12%;
+    margin-left: 90%;
+    margin-bottom: 4%;
+}
+
+.save_cancel_button_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.save_Btn_2 {
+    width: 45%;
+    padding: 7px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #081F2c;
+    color: white;
+}
+
+.cancel_Btn_2 {
+    width: 45%;
+    padding: 7px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #FFFFFF;
+}
+
+.delete_account_section {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 4px 4px 10px rgb(0 0 0 / 10%);
+    margin-bottom: 50px;
+}
+
+.delete_account_section h4 {
+    margin-bottom: 30px;
+}
+
+#delete_acnt_btn {
+    width: 25%;
+    padding: 8px;
+    font-size: 19px;
+    background: #FFFFFF;
+    border-radius: 18px;
+    font-weight: 600;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.delete_account_button {
+    text-align: end;
+    margin-top: 25px;
+}
+
+.My_details_section_full {
+    display: none;
+}
+
+
+@media only screen and (min-width:1020px) and (max-width:1100px) {
+    .details_section_info, .shipping_address, .email_section, .password_section {
+        width: 38%;
+    }
+
+    .my_account_div {
+        width: 85%;
+    }
+
+    .subscription_list {
+        width: 35%;
+    }
+    .purchase_history {
+        width: 35%;
+    }
+}
+
+
+
+@media only screen and (max-width: 576px) {
+
+    .my_account_div {
+        width: 88%;
+    }
+
+    .details_section_info {
+        width: 95% !important;
+        padding: 20px !important;
+    }
+
+    .details_section_info input {
+        font-size: 12px !important;
+    }
+
+    .details_section {
+        width: 100% !important;
+        margin-top: 50px !important;
+    }
+
+    .details_section button {
+        font-size: 14px !important;
+    }
+
+    .name_logout h4 {
+        font-size: 18px !important;
+    }
+
+    .account_log_out_btn {
+        width: 30%;
+        font-size: 15px;
+    }
+
+    .subs_section h4 {
+        font-size: 14px !important;
+    }
+
+    .subscription_list {
+        width: 85%;
+    }
+
+    .cancel_subscription button {
+        width: 70% !important;
+    }
+
+
+    .subs_section button {
+        width: 45%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .purchase_section button {
+        font-size: 12px !important;
+    }
+    .purchase_history {
+        width: 85%;
+    }
+
+    .purchase_section {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+    }
+
+    #DPM_text {
+        font-size: 18px;
+    }
+
+    .date_CVC {
+        flex-direction: column !important;
+    }
+
+    .shipping_address {
+        width: 95% !important;
+    }
+
+    .shipping_address input {
+        font-size: 12px !important;
+    }
+
+    .email_section {
+        width: 95% !important;
+    }
+
+    .password_section {
+        width: 95% !important;
+    }
+
+    .delete_account_section {
+        width: 95% !important;
+    }
+}

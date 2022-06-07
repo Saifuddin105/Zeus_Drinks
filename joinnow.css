@@ -1,0 +1,230 @@
+.form_container {
+    border: 1px solid lightgray;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 500px; */
+    box-shadow: 0px 0px 5px 5px lightgrey;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row !important;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+
+.policy_part {
+    width: 55%;
+    background: #f1f1f2;
+}
+
+.policy_part span {
+    font-size: 14px;
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.policy_part p {
+    font-size: 16px;
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.policy_part_content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.points_policy {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+}
+
+.form_part {
+    padding: 20px;
+    width: 45%;
+    background: #FFFFFF;
+}
+
+#joinnow_p {
+    margin-top: -15px;
+    color: grey;
+    font-weight: 600;
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.form_header h4 {
+    font-size: 25px;
+    font-family: 'Oswald';
+    letter-spacing: 2px;
+}
+
+.form_component {
+    display: flex;
+    flex-direction: column;
+}
+
+.name_form {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.main_form span {
+    font-size: 16px;
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: grey;
+}
+
+.main_form input {
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 2px solid lightgrey;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: 'Oswald';
+}
+
+#textarea_joinnow {
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 2px solid lightgrey;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: 'Oswald';
+}
+
+#name_field {
+    width: 90%;
+}
+
+#social_logo {
+    border: 1px solid lightgrey;
+    height: 41px;
+    width: 45px;
+    margin-top: 8px;
+    background: lightgrey;
+
+}
+
+#instagram {
+    font-size: 20px;
+    color: dimgray;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#website, #facebook, #youtube {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 14px;
+    color: grey;
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+}
+
+.social_portion {
+    display: flex;
+    flex-direction: row;
+}
+
+.joinnow_checkbox {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.joinnow_checkbox h3 {
+    font-size: 16px;
+    margin-top: 2px;
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+}
+
+.social_portion input {
+    width: 86%;
+}
+
+.join_now_submit_btn {
+    padding: 20px;
+}
+
+.join_now_submit_btn button {
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+    font-family: 'Oswald';
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: #646464;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.joinnow_img_logo {
+    text-align: center;
+    padding: 30px;
+}
+
+@media only screen and (max-width:576px) {
+    .form_container {
+        display: flex;
+        flex-direction: column !important;
+        width: 95%;
+    }
+
+    .form_part {
+        width: 90%;
+    }
+
+    .policy_part {
+        width: 99%;
+    }
+
+    .three_boxes {
+        flex-direction: column;
+    }
+
+   .joinnow_img_logo img {
+       height: 80px;
+   }
+   .joinnow_img_logo {
+       padding: 20px;
+   }
+   .name_form {
+       gap: 2px;
+   }
+   #name_field {
+       width: 95%;
+   }
+
+    #navbar_brand {
+        height: 105px;
+    }
+
+    .slider_text p {
+        font-size: 20px;
+    }
+
+    .slider_brand {
+        padding: 25px;
+    }
+
+
+}

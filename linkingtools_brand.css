@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.slider_brand {
+    background: #7C7C7D;
+    padding: 50px;
+}
+
+.slider_text {
+    text-align: center;
+}
+
+.slider_text h4 {
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.slider_text p {
+    font-size: 30px;
+
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: 400;
+}
+
+.brand_button a {
+    color: white;
+    letter-spacing: 1px;
+    font-family: initial;
+    font-family: 'Oswald', sans-serif;
+}
+
+.join_button {
+    margin-top: 20px;
+}
+
+.join_now_btn_lt {
+    background: black;
+    height: 50px;
+    width: 160px;
+    font-size: 15px;
+    color: white;
+    padding: 10px 28px;
+    border: 1px solid;
+}
+
+.join_now_btn_lt:hover {
+    background: white;
+    color: black;
+}
+
+.linking_tools_main {
+    display: flex;
+    padding: 50px 200px;
+    flex-direction: column;
+}
+
+.linking_tools_content {
+    display: flex;
+
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+    font-weight: 700;
+
+
+
+    border-bottom: 1px solid #dee2e6;
+    width: 80%;
+    padding: 10px;
+
+}
+
+.linking_tools_content a {
+    font-size: 18px;
+}
+
+#reports {
+    font-size: 18px;
+    /* border: 1px solid; */
+    margin-bottom: -10px;
+    white-space: nowrap;
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+    border-top: 1px solid #dee2e6;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#tools {
+    font-size: 18px;
+    /* border: 1px solid; */
+    margin-bottom: -10px;
+    white-space: nowrap;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-top: 1px solid transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#com_details {
+    font-size: 18px;
+    /* border: 1px solid; */
+    margin-bottom: -10px;
+    white-space: nowrap;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-top: 1px solid transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tools_content {
+    font-family: 'Oswald', sans-serif;
+
+    padding: 5px 18px;
+    display: none;
+}
+
+.Tool_1 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.Tool_2, .Tool_3 {
+    margin-bottom: 25px;
+}
+
+.Tool_1 h3 {
+    font-size: 26px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.Tool_1 p, .Tool_2 p, .Tool_3 p {
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+
+}
+
+.Tool_2 h4, .Tool_3 h4, .Tool_4 h4 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.Tool_4 p {
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+#Tool_p {
+    /* margin-top: -15px; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.reports_content {
+    font-family: "Oswald";
+    padding: 20px 18px;
+
+}
+
+.reports_1 h4 {
+    font-size: 26px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: 'Oswald';
+}
+
+.reports_2 {
+    margin-top: 30px;
+}
+
+.reports_1 p {
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+
+}
+
+/* .reports_1 p {
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+} */
+
+.reports_2 h4 {
+    font-size: 26px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.reports_2 ul {
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.reports_2 li {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.com_det_content {
+    font-family: 'Oswald';
+    padding: 30px 18px;
+    display: none;
+}
+
+.cdc_1 p {
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.cdc_1 h4 {
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.cdc_2 h4, .cdc_3 h4, .cdc_4 h4 {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.cdc_2, .cdc_4 {
+    margin-top: 40px;
+}
+
+.cdc_3 {
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.cdc_2 p {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 15px;
+
+}
+
+.brand_table_1 {
+    width: 100%;
+}
+
+.brand_table_2 {
+    width: 70%;
+}
+
+td, th {
+    border: 2px solid #777;
+    text-align: left;
+    padding: 8px;
+}
+
+.brand_td_1, .brand_td_2 {
+    background: #e2e1e1;
+}
+
+#cdc_4_p {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+
+#cdc_4_p2 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+
+.brand_footer {
+    border-top: 1px solid #dee2e6;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    background: #F8F9Fa
+}
+
+#brand_footer_title {
+    font-family: 'Oswald';
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.footerCollum_1, .footerCollum_2, .footerCollum_3, .footerCollum_4 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.brand_footer a {
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #8181f8;
+    font-size: 14px;
+}
+
+.brand_footer a:hover {
+    color: #165ba8;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width:576px) {
+
+    .linking_tools_main {
+        padding: 2px 4px;
+    }
+
+    .imglogo_brand img {
+        height: 90px;
+    }
+
+    .brand_footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        gap: 5px;
+        text-align: center;
+    }
+
+}
+
+
+/* brand inside  content pages ends*/

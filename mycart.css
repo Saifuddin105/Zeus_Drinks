@@ -1,0 +1,453 @@
+/* empty cart design */
+.my_cart_section {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.cart_H4 {
+    margin-top: 20px;
+    font-size: 38px;
+    letter-spacing: 1px;
+    color: deepskyblue;
+    margin-bottom: 20px;
+
+}
+
+.cart_span {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.cart_p {
+    margin-top: 20px;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: cadetblue;
+    margin-bottom: 80px;
+}
+
+.cart_subscription, .single_purchase_cart, .bulk_purchase_cart {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my_cart_anchor {
+    color: black;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.my_cart_anchor_2 {
+    color: black;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+/* /* empty cart design ends */
+.order_summery {
+    background: #CFDAE0;
+    padding: 78px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.subscription_box {
+    width: 98%;
+
+    background: #FFFFFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgb(0 0 0 / 10%);
+}
+
+.sub_box_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sub_box_image img {
+    height: 180px;
+    margin-top: 17px;
+}
+
+.sub_box_details {
+    text-align: center;
+}
+
+.SBD1 {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.SBD4 {
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.sub_days {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.SBD2 {
+    margin-top: 20px;
+}
+
+.sub_amount {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.sub_box_remove_btn {
+    border: 1px solid black;
+    width: 54%;
+    font-size: 15px;
+    padding: 9px;
+    border-radius: 20px;
+    background: #081F2c;
+    color: white;
+    margin-top: 30px;
+    /* margin-top: -10px; */
+
+}
+
+.subscription_part a {
+    font-size: 18px;
+    color: black;
+    text-decoration: underline;
+}
+
+.subscription_part {
+    display: flex;
+    gap: 200px;
+    margin-bottom: 16px;
+}
+
+.subscription_part h4 {
+    font-size: 19px;
+    font-weight: 700;
+    color: #081F2c;
+}
+
+.one_time_p_info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.one_time_purchase_box {
+    width: 98%;
+
+    background: #FFFFFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgb(0 0 0 / 10%);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.OTP_counter_box {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+}
+
+.otp_minus {
+    width: 40px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    font-size: 21px;
+    font-weight: 700;
+    /* letter-spacing: 0px; */
+    color: white;
+    background: #081F2c
+}
+
+.otp_plus {
+
+    width: 40px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    font-size: 21px;
+    font-weight: 700;
+    /* letter-spacing: 0px; */
+    color: white;
+    background: #081F2c
+}
+
+.Otp_value_div {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #EDEDE8;
+    padding-top: 7px;
+    width: 50%;
+}
+
+.otp_remove_btn {
+    border: 1px solid black;
+    width: 54%;
+    font-size: 15px;
+    padding: 9px;
+    border-radius: 20px;
+    background: #081F2c;
+    color: white;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.one_time_p_imagebox img {
+    height: 180px;
+    margin-top: 35px;
+}
+
+.OTP1 {
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.OTP3 {
+    margin-top: 8px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.one_time_purchase {
+    display: flex;
+    margin-bottom: 12px;
+    gap: 155px;
+    margin-top: 65px;
+}
+
+.one_time_purchase h4 {
+    font-size: 19px;
+    font-weight: 700;
+    color: #081F2c;
+}
+
+.one_time_purchase a {
+    font-size: 18px;
+    color: black;
+    text-decoration: underline;
+}
+
+.order_summery_box {
+    width: 98%;
+
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgb(0 0 0 / 10%);
+
+
+}
+
+.order_product_price, .order_product_price_SPO {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.productPart, .productPart_SPO {
+    width: 75%;
+}
+
+.text_price_total {
+    display: flex;
+}
+
+.text_price_total_SPO {
+    display: flex;
+}
+
+.total_part, .total_part_SPO, .Final_total_text {
+    width: 75%;
+    font-weight: 800;
+    font-size: 17px;
+}
+
+#SPO_text {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#SO_text {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.SUbtotal_portion {
+    margin-top: 60px;
+}
+
+.subtotal_portion_info, .shipping_portion, .Final_total {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.subTotal, .Shipping, .Final_total_text {
+    width: 75%;
+}
+
+.checkout_BTN {
+    border: 1px solid black;
+    width: 98%;
+    font-size: 18px;
+    padding: 13px;
+    border-radius: 20px;
+    background: #081F2c;
+    color: white;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.order_summery_left {
+    width: 33%;
+}
+
+.order_summery_right {
+    width: 30%;
+}
+
+#order_sum_text {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    margin-left: 5px;
+}
+
+.subscription_part a, .one_time_purchase a {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .image_empty_cart {
+        height: 130px;
+    }
+
+    .cart_H4 {
+        font-size: 30px !important;
+    }
+
+    .cart_span {
+        font-size: 25px !important;
+    }
+
+    .cart_p {
+        font-size: 16px !important;
+    }
+
+    .cart_subscription h4, .single_purchase_cart h4 {
+        font-size: 14px !important;
+    }
+
+    .my_cart_anchor {
+
+        font-size: 12px !important;
+    }
+
+    .cart_subscription, .single_purchase_cart {
+        width: 90% !important;
+        margin-top: 20px !important;
+    }
+
+    .order_summery {
+        flex-direction: column !important;
+        padding: 15px !important;
+    }
+
+    .order_summery_left, .order_summery_right {
+        width: 100% !important;
+    }
+
+    .subscription_part, .one_time_purchase {
+        flex-direction: column !important;
+        gap: 5px !important;
+    }
+
+    .sub_days {
+        font-size: 15px !important;
+    }
+
+    .OTP2, #SBD3 {
+        font-size: 13px !important;
+    }
+
+    .OTP1, #SBD1 {
+        font-size: 20px !important;
+    }
+
+    .OTP3, #SBD4 {
+        font-size: 15px !important;
+    }
+
+    .sub_box_image img, .one_time_p_imagebox img {
+        height: 150px !important;
+    }
+
+    .subscription_part h4, .one_time_purchase h4 {
+        font-size: 16px !important;
+    }
+
+    .subscription_part a, .one_time_purchase a {
+        font-size: 14px !important;
+    }
+
+    #order_sum_text {
+        font-size: 16px;
+        margin-top: 50px;
+        margin-bottom: 13px;
+    }
+
+}
+
+@media only screen and (min-width: 1020px) and (max-width: 1112px) {
+    .topbar_item {
+        padding: 30px;
+    }
+
+    .order_summery {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .order_summery_left {
+        width: 40%;
+    }
+
+    .order_summery_right {
+        width: 35%;
+    }
+
+    .my_cart_section {
+        margin-top: 5px;
+    }
+}

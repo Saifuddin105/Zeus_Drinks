@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mycart.css" />
+    <link rel="stylesheet" href="loginmodal.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="topbar_item logo-paddding">
+      <div class="logo">
+        <a href="index.html">
+          <img src="./images/logo.png" alt="" />
+        </a>
+      </div>
+      <div class="social">
+        <div class="fb">
+          <img id="fb" src="./images/account.png" />
+        </div>
+        <div class="insta">
+          <img id="insta" src="./images/shopping-cart.png" alt="" />
+        </div>
+
+        <div class="divide">
+          <span id="divide">|</span>
+        </div>
+        <div>
+          <a href="menu_items.html"
+            ><img
+              id="menu_button"
+              src="./images/5fe3c13c8317b7d01da323ff_group-25.svg"
+              alt=""
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="my_cart_section">
+      <div>
+        <img class="image_empty_cart" src="./images/emptycart.png" alt="" />
+      </div>
+      <h4 class="cart_H4">OH NO !</h4>
+      <span class="cart_span">Your Basket is Empty...</span>
+      <p class="cart_p">put your first product on it !</p>
+      <div class="cart_subscription">
+        <h4>Subscription</h4>
+        <a class="my_cart_anchor" href="">Add subscriptions</a>
+      </div>
+      <div class="single_purchase_cart">
+        <h4>Single Purchase</h4>
+        <a class="my_cart_anchor_2" href="">Add more products</a>
+      </div>
+    </div>
+
+    <!-- when cart is full  -->
+
+    <div class="order_summery">
+      <div class="order_summery_left">
+        <div class="total subscription_cart">
+          <div class="subscription_part">
+            <h4>Subscriptions</h4>
+            <a href="">Add Subscription</a>
+          </div>
+
+          <div class="subscription_box">
+            <div class="sub_box_info">
+              <div class="sub_box_image">
+                <img
+                  src="./images/orginal-with-price-tag.png"
+                  alt=""
+                  height="80px"
+                />
+              </div>
+              <div class="sub_box_details">
+                <span class="SBD1">&#163;40.02</span>
+                <p class="SBD2"><span class="sub_amount">4</span> Cases</p>
+
+                <p class="SBD3">
+                  Delivered every <span class="sub_days">30</span> Days
+                </p>
+
+                <p class="SBD4">Zeus Energy Drink Original</p>
+                <button class="sub_box_remove_btn">Remove</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="total_one_time_purchase">
+          <div class="one_time_purchase">
+            <h4>One Time Purchase</h4>
+            <a href="">Add more cases</a>
+          </div>
+          <div class="one_time_purchase_box">
+            <div class="one_time_p_imagebox">
+              <img src="./images/orginal-with-price-tag.png" alt="" />
+            </div>
+            <div class="one_time_p_info">
+              <span class="OTP1">&#163;40.02</span>
+              <span class="OTP2">Delivered once, reorder when you need</span>
+              <span class="OTP3">Zeus Energy Drink Original</span>
+              <div class="OTP_counter_box">
+                <button onclick="otp_decreament()" class="otp_minus">-</button>
+                <div class="Otp_value_div">
+                  <h4 class="otp_value">0</h4>
+                </div>
+                <button onclick="otp_increament()" class="otp_plus">+</button>
+              </div>
+              <button class="otp_remove_btn">Remove</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="order_summery_right">
+        <h4 id="order_sum_text">Order Summary</h4>
+
+        <div class="order_summery_box">
+          <h4 id="SO_text">Subscription Order</h4>
+          <div class="order_product_price">
+            <div class="productPart">Zeus Energy Drink Original</div>
+            <div class="pricePart">&#163;40.02</div>
+          </div>
+
+          <div class="total_calculation">
+            <div class="hr_total_price">
+              <hr />
+              <div class="text_price_total">
+                <div class="total_part">Total</div>
+                <div class="total_pricePart">&#163;40.02</div>
+              </div>
+            </div>
+          </div>
+
+          <h4 id="SPO_text">Single Purchase order</h4>
+          <div class="order_product_price_SPO">
+            <div class="productPart_SPO">Zeus Energy Drink Original</div>
+            <div class="pricePart_SPO">&#163;40.02</div>
+          </div>
+          <div class="total_calculation_SPO">
+            <div class="hr_total_price">
+              <hr />
+              <div class="text_price_total_SPO">
+                <div class="total_part_SPO">Total</div>
+                <div class="total_pricePart_SPO">&#163;40.02</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="SUbtotal_portion">
+            <div class="subtotal_portion_info">
+              <div class="subTotal">SUbtotal</div>
+              <div class="subTotal_price">&#163;40.02</div>
+            </div>
+            <div class="shipping_portion">
+              <div class="Shipping">Shipping</div>
+              <div class="Shipping_price">&#163;0</div>
+            </div>
+            <div class="hr_total_final">
+              <div>
+                <hr />
+              </div>
+              <div class="Final_total">
+                <div class="Final_total_text">Total</div>
+                <div class="Final_total_amount">&#163;40.02</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="checkout_part">
+            <button class="checkout_BTN">Checkout</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="login_modal_bg">
+      <div class="login_modal">
+        <div class="heading_for_form">
+          <h4 id="account_heading">Create account or Login</h4>
+          <button class="cross_button">x</button>
+        </div>
+        <p id="P_TAG">
+          We are a subscription-first business. For you to change or skip a
+          delivery in the future, you will need a ZEUS Drink account.
+        </p>
+
+        <div class="All_button_class">
+          <button class="login_btn_class" id="apple_btn">
+            <img id="login_img" src="./images/appleFixed.png" alt="" />
+            <p>Continue with Apple</p>
+          </button>
+          <button class="login_btn_class2" id="google_btn">
+            <img id="login_img" src="./images/google_logo.png" alt="" />
+            <p>Continue with Google</p>
+          </button>
+          <button class="login_btn_class3" id="facebook_btn">
+            <img id="login_img" src="./images/facebook_logo.png" alt="" />
+            <p>Continue with Facebook</p>
+          </button>
+        </div>
+
+        <h4 id="or">or</h4>
+
+        <div class="login_form_options">
+          <button class="login_BUTTON">Log in</button>
+
+          <button class="signup_button">Sign up</button>
+        </div>
+
+        <form action="" class="form">
+          <div class="LOGIN_FORM">
+            <div class="input_control">
+              <!-- <label for="email"></label> -->
+              <input
+                type="text"
+                id="email"
+                placeholder="Email"
+                class="login_email_input"
+              />
+              <div class="error"></div>
+            </div>
+            <div class="input_control">
+              <!-- <label for="login_modal_pass"></label> -->
+
+              <input
+                id="login_modal_pass"
+                type="password"
+                placeholder="Password"
+                class="login_email_pass"
+              />
+              <img
+                src="./images/eye.png"
+                alt=""
+                id="eye_icon"
+                onclick="togglePW()"
+              />
+
+              <div class="error"></div>
+            </div>
+
+            <div class="forget_pss_div">
+              <div class="remember_me">
+                <input id="login_checkbox" type="checkbox" required />
+                <p>Remember Me</p>
+              </div>
+              <div>
+                <a class="forget_pass_text" href="pass_recovery.html"
+                  >Forget Password ?</a
+                >
+              </div>
+            </div>
+
+            <div style="text-align: center">
+              <button class="continue_btn" type="submit">Continue</button>
+            </div>
+          </div>
+        </form>
+
+        <form action="" id="form_signup">
+          <div class="SIGNUP_FORM">
+            <div class="NAMES">
+              <input
+                class="first_name_sign_up"
+                type="text"
+                placeholder="First Name"
+                required
+              />
+              <input
+                class="last_name_sign_up"
+                type="text"
+                placeholder="Last Name"
+              />
+            </div>
+            <div>
+              <div class="form_control">
+                <!-- <label for="email"></label> -->
+                <input
+                  type="text"
+                  id="email_2"
+                  placeholder="Email"
+                  class="signup_email_input"
+                />
+                <div class="error2"></div>
+              </div>
+              <div class="form_control">
+                <input
+                  id="signup_pass"
+                  type="password"
+                  placeholder="Password"
+                  class="signup_email_pass"
+                />
+                <img
+                  src="./images/eye.png"
+                  alt=""
+                  id="eye_icon"
+                  onclick="togglePW1()"
+                />
+                <div class="error2"></div>
+              </div>
+
+              <div class="form_control">
+                <input
+                  id="signup_pass_confirm"
+                  type="password"
+                  placeholder="Confirm Password"
+                  class="sign_up_pass_confirm"
+                />
+                <img
+                  src="./images/eye.png"
+                  alt=""
+                  id="eye_icon"
+                  onclick="togglePW2()"
+                />
+                <div class="error2"></div>
+              </div>
+            </div>
+
+            <div class="checkbox_DIV">
+              <input type="checkbox" id="login_form_checkbox" required />
+              <h4 id="H-4">
+                I confirm I have read and agree to the
+                <a id="Anchor">Terms and Conditions</a>
+              </h4>
+            </div>
+            <div style="text-align: center">
+              <button class="continue_btn_2" type="submit">Continue</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./assets/mycart.js"></script>
+    <script src="./assets/loginmodal.js"></script>
+  </body>
+</html>

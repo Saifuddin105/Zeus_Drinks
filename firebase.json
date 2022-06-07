@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "ZeusDrinks",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

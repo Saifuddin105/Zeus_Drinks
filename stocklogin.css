@@ -1,0 +1,177 @@
+.stock_login_form {
+    width: 60vw;
+    background: #fff;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    filter: drop-shadow(0px 0px 2px black);
+    margin-bottom: 100px;
+}
+
+#login_title {
+    font-size: 30px;
+    padding: 15px;
+}
+
+.stock_form_element {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.stock_form_element span {
+    font-size: 20px;
+    font-weight: 600;
+    color: green;
+}
+
+.stock_form_element input {
+    padding: 12px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 7px #00000027, -1px -1px 7px #969393;
+}
+
+#next_button_SR {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #00acee;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
+.forget_info {
+    display: flex;
+
+    gap: 20px;
+}
+
+#next_button_SR:hover {
+    transform: scale(1.03);
+}
+
+#a_tag1 {
+    font-size: 16px;
+
+    color: #777;
+}
+
+#a_tag2 {
+    font-size: 16px;
+    color: #777;
+}
+
+#a_tag1:hover {
+    color: red;
+}
+
+#a_tag2:hover {
+    color: red;
+}
+
+#new_customer {
+    font-size: 25px;
+    padding: 35px;
+}
+
+.stock_login_TEXT {
+    margin-top: -25px;
+    margin-left: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.stock_login_TEXT h4 {
+    font-size: 18px;
+    color: #797D7F;
+}
+
+.stock_login_TEXT button {
+    width: 180px;
+    font-size: 16px;
+    height: 40px;
+   
+    color: #0093d8;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #ebebea;
+    box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 10%);
+    transition: .4s
+}
+
+.stock_login_TEXT button:hover {
+    transform: scale(1.03);
+    filter: drop-shadow(1px 1px 5px grey);
+}
+
+.stock_login_TEXT p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #797D7F;
+}
+
+#a_tag3 {
+    font-size: 18px;
+    color: #0DB2FF;
+}
+
+.a_tags_div {
+    margin-top: 5px;
+}
+
+.divider_stock_login {
+    height: 1px;
+    margin-top: 30px;
+    background: lightgrey;
+
+}
+
+@media only screen and (max-width:576px) {
+    .stock_login_form {
+        width: 90vw;
+        padding: 10px;
+    }
+    .stock_form_element {
+        width: 95%;
+    }
+    .a_tags_div {
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+    }
+    #next_button_SR {
+        padding-top: 7px;
+    }
+    .topbar_item {
+        padding: 20px;
+    }
+    .stock_login_TEXT {
+        margin-left: 0px;
+        margin-top: 0px;
+        padding: 15px;
+
+}
+#new_customer {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+}

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="brand.css" />
+    <link rel="stylesheet" href="loginmodal.css">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="topbar_item logo-paddding">
+      <a href="index.html">
+        <div class="logo">
+          <img src="./images/logo.png" alt="" />
+        </div>
+      </a>
+      <div class="social">
+        <div class="fb">
+          <img id="fb" src="./images/account.png" />
+        </div>
+        <div class="insta">
+          <img id="insta" src="./images/shopping-cart.png" alt="" />
+        </div>
+
+        <div class="divide">
+          <span id="divide">|</span>
+        </div>
+        <div>
+          <a href="menu_items.html"
+            ><img
+              id="menu_button"
+              src="./images/5fe3c13c8317b7d01da323ff_group-25.svg"
+              alt=""
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="slider_brand">
+      <div class="slider_text">
+        <h4>Profit From our experiences</h4>
+        <p>Earn up to 10% commission for every successful referral</p>
+        <div class="join_button">
+          <button><a href="joinnow.html">Join Now</a></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="three_boxes">
+      <div class="BOX_content">
+        <div class="svg_image">
+          <img src="./images/connect.png" alt="" />
+        </div>
+        <div class="heading_content">
+          <h4>Join</h4>
+        </div>
+        <div class="text_content">
+          <p>It's free and easy to join.</p>
+          <p>Get up and running today.</p>
+        </div>
+        <div class="btn_content">
+          <a href="joinnow.html">Join Now</a>
+        </div>
+      </div>
+      <div class="BOX_content">
+        <div class="svg_image">
+          <img src="./images/socaillinks.svg" alt="" />
+        </div>
+        <div class="heading_content">
+          <h4>Promote</h4>
+        </div>
+        <div class="text_content">
+          <p>Choose from our products to promote to your customers.</p>
+          <p>
+            Whether you are a large marketplace, content site, social media
+            influencer or blogger, we have simple linking tools to meet your
+            promotion needs and help you monetize
+          </p>
+        </div>
+        <div class="btn_content">
+          <a href="linkingtools_brand.html">Linking Tools</a>
+        </div>
+      </div>
+      <div class="BOX_content">
+        <div class="svg_image">
+          <img src="./images/podium.png" alt="" />
+        </div>
+        <div class="heading_content">
+          <h4>Win</h4>
+        </div>
+        <div class="text_content">
+          <p>
+            Get up to 10% in commissions on successful referrals. Earn
+            commissions from all qualifying purchases, not just the products you
+            promoted. Plus, our competitive conversion rates help you maximize
+            your earnings.
+          </p>
+        </div>
+        <div class="btn_content">
+          <a href="linkingtools_brand.html">Product Commission</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="Join_Now">
+      <button><a href="joinnow.html">Join Now</a></button>
+    </div>
+
+            <div class="login_modal_bg">
+        <div class="login_modal">
+            <div class="heading_for_form">
+                <h4 id="account_heading">Create account or Login</h4>
+                <button class="cross_button">x</button>
+            </div>
+            <p id="P_TAG">We are a subscription-first business. For you to change or skip a delivery in the future, you will
+                need a ZEUS Drink account.</p>
+    
+            <div class="All_button_class">
+    
+                <button class="login_btn_class" id="apple_btn">
+                    <img id="login_img" src="./images/appleFixed.png" alt="">
+                    <p>Continue with Apple</p>
+                </button>
+                <button class="login_btn_class2" id="google_btn">
+                    <img id="login_img" src="./images/google_logo.png" alt="">
+                    <p>Continue with Google</p>
+                </button>
+                <button class="login_btn_class3" id="facebook_btn">
+                    <img id="login_img" src="./images/facebook_logo.png" alt="">
+                    <p>Continue with Facebook</p>
+                </button>
+            </div>
+    
+            <h4 id="or">or</h4>
+    
+            <div class="login_form_options">
+                <button class="login_BUTTON">Log in</button>
+    
+                <button class="signup_button">Sign up</button>
+            </div>
+    
+    
+            <form action="" class="form">
+                <div class="LOGIN_FORM">
+
+                    <div class="input_control">
+                        <!-- <label for="email"></label> -->
+                        <input type="text" id="email" placeholder="Email" class="login_email_input">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input_control">
+                        <!-- <label for="login_modal_pass"></label> -->
+                        
+                       
+                    <input id="login_modal_pass" type="password" placeholder="Password" class="login_email_pass">
+                          <img src="./images/eye.png" alt="" id="eye_icon" onclick="togglePW()">
+                        
+                     <div class="error"></div>
+                    
+                    </div>
+                    
+                    
+                    
+                   
+                    
+                    <div class="forget_pss_div">
+                        <div class="remember_me">
+                            <input id="login_checkbox" type="checkbox" required>
+                            <p>Remember Me</p>
+                        </div>
+                        <div>
+                            <a class="forget_pass_text" href="pass_recovery.html">Forget Password ?</a>
+                        </div>
+                    </div>
+
+                    <div style="text-align: center;">
+                    <button class="continue_btn" type="submit">Continue</button>
+                </div>
+                    
+                </div>
+                </form>
+    
+                <form action="" id="form_signup">
+    
+    
+                <div class="SIGNUP_FORM">
+    
+                    <div class="NAMES">
+                        <input class="first_name_sign_up" type="text" placeholder="First Name" required>
+                        <input class="last_name_sign_up" type="text" placeholder="Last Name">
+                    </div>
+    <div>
+                     <div class="form_control">
+                        <!-- <label for="email"></label> -->
+                        <input type="text" id="email_2" placeholder="Email" class="signup_email_input">
+                        <div class="error2"></div>
+                    </div>
+                    <div class="form_control">
+                    <input id="signup_pass" type="password" placeholder="Password" class="signup_email_pass">
+                    <img src="./images/eye.png" alt="" id="eye_icon" onclick="togglePW1()">
+                    <div class="error2"></div>    
+                </div>
+
+                    <div class="form_control">
+                    <input id="signup_pass_confirm" type="password" placeholder="Confirm Password" class="sign_up_pass_confirm">
+                    <img src="./images/eye.png" alt="" id="eye_icon" onclick="togglePW2()">
+                <div class="error2"></div>    
+                </div>
+                </div>
+    
+                    <div class="checkbox_DIV">
+                        <input type="checkbox" id="login_form_checkbox" required>
+                        <h4 id="H-4">I confirm I have read and agree to the <a id="Anchor">Terms and
+                                Conditions</a></h4>
+                    </div>
+                    <div style="text-align: center;">
+                    <button class="continue_btn_2" type="submit">Continue</button>
+                </div>
+                </div>
+                </form>
+                
+            
+    
+    
+    
+        </div>
+    </div>
+
+
+    <script src="./assets/js/custom-scripts.js"></script>
+    <script src="./assets/loginmodal.js"></script>
+  </body>
+</html>

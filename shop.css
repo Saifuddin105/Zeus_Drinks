@@ -1,0 +1,256 @@
+/*
+.topbar_item {
+    padding: 50px;
+}
+*/
+
+.original_img {
+    height: 340px;
+
+}
+
+.first_2_shop {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.last_2_shop {
+    display: flex;
+    justify-content: space-around;
+}
+
+.shop_now_section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 61%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 100px;
+
+}
+
+.original_info {
+    padding: 20px;
+}
+
+.shop_item_title {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.shop_item_price {
+    text-align: center;
+    font-size: 25px;
+}
+
+.plan_section {
+    margin-top: 30px;
+}
+
+.plan_radio_inputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.plan_radio_inputs_1, .plan_radio_inputs_2, .plan_radio_inputs_two_1, .plan_radio_inputs_two_2, .plan_radio_inputs_three_1, .plan_radio_inputs_three_2, .plan_radio_inputs_four_1, .plan_radio_inputs_four_2 {
+    font-size: 20px;
+    display: flex;
+    gap: 18px;
+    letter-spacing: 1px;
+}
+
+.plan_section input {
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(3px 2px 0px black);
+}
+
+.plan_radio h4 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.one_time_sec {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.one_time_sec_suger_free {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.one_time_sec_mojito {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.one_time_sec_orange {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.subscription_sec {
+    margin-top: 30px;
+    text-align: center;
+    display: none;
+}
+
+.subscription_sec_suger_free {
+    margin-top: 30px;
+    text-align: center;
+    display: none;
+}
+
+.subscription_sec_mojito {
+    margin-top: 30px;
+    text-align: center;
+    display: none;
+}
+
+.subscription_sec_orange {
+    margin-top: 30px;
+    text-align: center;
+    display: none;
+}
+
+.sub_selectbox select {
+    padding: 10px;
+    width: 76%;
+    font-size: 22px;
+    background: #FDE4AA;
+    filter: drop-shadow(2px 5px 0px black);
+}
+
+.one_time_btn {
+    filter: drop-shadow(2px 3px 0px black);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 18px;
+    background: #CFDAE0;
+
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.subscrptn_btn {
+    margin-top: 30px;
+    filter: drop-shadow(2px 3px 0px black);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 18px;
+    background: #CFDAE0;
+
+    border: none;
+    cursor: pointer;
+}
+
+.divider_shop {
+    height: 1px;
+    background: black;
+    margin-top: 25px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.zeus_original {
+    background: #fff;
+    width: 45%;
+    padding: 5px;
+}
+
+.zeus_suger_free {
+    background: #fff;
+    width: 45%;
+    padding: 5px;
+}
+
+.zeus_mojito {
+    background: #fff;
+    width: 45%;
+    padding: 5px;
+}
+
+.zeus_orange {
+    background: #fff;
+    width: 45%;
+    padding: 5px;
+}
+
+.original_image {
+    background-color: #BDBCD3;
+    text-align: center;
+    padding: 50px;
+}
+
+.suger_free_image {
+    background-color: #F3BFA9;
+    text-align: center;
+    padding: 50px;
+}
+
+.mojito_image {
+    background-color: #C4E6CF;
+    text-align: center;
+    padding: 50px;
+}
+
+.orange_image {
+    background-color: #F7E09C;
+    text-align: center;
+    padding: 50px;
+}
+
+@media only screen and (max-width:576px) {
+    .first_2_shop, .last_2_shop {
+        flex-direction: column;
+    }
+
+    .zeus_original, .zeus_suger_free, .zeus_mojito, .zeus_orange {
+        width: 100%;
+    }
+
+    .shop_now_section {
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    .zeus_suger_free, .zeus_orange {
+        margin-top: 20px;
+    }
+
+    .original_img {
+        height: 285px;
+    }
+}
+
+@media only screen and (min-width: 1020px) and (max-width: 1112px) {
+    .shop_now_section {
+        width: 75%;
+    }
+
+    .zeus_original, .zeus_suger_free, .zeus_mojito, .zeus_orange {
+        width: 50%;
+    }
+
+    .original_img {
+        height: 300px;
+    }
+    .first_2_shop,.last_2_shop {
+        gap: 25px;
+    }
+}

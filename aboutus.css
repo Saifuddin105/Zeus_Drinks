@@ -1,0 +1,219 @@
+.our_people {
+    width: 85%;
+    /* background: #D3EACD; */
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0px 2px 5px rgb(0 0 0 / 10%); */
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.About_us_section {
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background: #D3EACD;
+    align-items: center;
+    text-align: center;
+}
+
+.our_leadership_team {
+    width: 85%;
+    /* background: #C0E1F2; */
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0px 2px 5px rgb(0 0 0 / 10%); */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+}
+
+.our_career {
+    width: 85%;
+    /* background: #AFEEEE; */
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0px 2px 5px rgb(0 0 0 / 10%); */
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.AU_firstpart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.OP_text {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.OP_text p {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.OP_text h3 {
+    font-size: 35px;
+    font-weight: 500;
+    color: darkgreen;
+}
+
+.OP_text h4 {
+    font-size: 19px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    line-height: inherit;
+}
+
+.OP_image img {
+    height: 450px;
+}
+
+.OLT_text {
+    width: 50%;
+    margin-top: 40px;
+}
+
+.OLT_text h4 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #1c9599;
+}
+
+.OLT_text p {
+    font-size: 19px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 25px;
+}
+
+.OC_image img {
+    height: 350px;
+}
+
+.OC_text h4 {
+    font-size: 35px;
+    font-weight: 500;
+    color: darkslateblue;
+}
+
+.OC_text {
+    width: 50%;
+    margin-top: 40px;
+}
+
+.OC_text p {
+    font-size: 19px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 25px;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .our_people {
+        flex-direction: column-reverse !important;
+        width: 100% !important;
+    }
+
+    .our_leadership_team {
+        flex-direction: column-reverse !important;
+        width: 100% !important;
+    }
+
+    .our_career {
+        flex-direction: column-reverse !important;
+        width: 100% !important;
+    }
+
+    .About_us_section {
+        padding: 5px !important;
+        gap: 20px !important;
+    }
+
+    .OP_image img {
+        height: 300px !important;
+    }
+
+    .OLT_image img {
+        height: 178px !important;
+    }
+
+    .OC_image img {
+        height: 200px !important;
+    }
+
+    .OP_text, .OC_text, .OLT_text {
+        width: 100% !important;
+    }
+
+    .OP_text {
+        margin-top: 1px !important;
+    }
+
+    .OP_text p {
+        font-size: 18px !important;
+    }
+
+    .OP_text h4, .OLT_text p, .OC_text p {
+        font-size: 14px !important;
+    }
+
+    .OP_text h3, .OC_text h4, .OLT_text h4 {
+        font-size: 28px !important;
+    }
+}
+
+@media only screen and (min-width: 1020px) and (max-width: 1112px) {
+
+    .About_us_section {
+        padding: 5px;
+    }
+
+    .our_people {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .OP_image img {
+        height: 370px;
+        margin-top: 50px;
+
+    }
+
+    .OP_text h4 {
+        font-size: 17px;
+    }
+
+    .our_leadership_team {
+        width: 95%;
+        padding: 10px;
+    }
+    .OLT_image img {
+        height: 270px;
+    }
+    .OLT_text p {
+        font-size: 17px;
+    }
+    .our_career {
+        width: 95%;
+        padding: 10px;
+        margin-bottom: 45px;
+    }
+    .OC_image img {
+        height: 280px;
+    }
+    .OC_text p {
+        font-size: 17px;
+    }
+}

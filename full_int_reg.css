@@ -1,0 +1,103 @@
+.full_int_reg_section {
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(1px 1px 5px black);
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+.full_int_reg_section h4 {
+
+    color: #0197f6;
+    font-size: 22px;
+    margin-bottom: 15px;
+    padding-left: 45px;
+    margin-top: 45px;
+}
+
+.form_int_1 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.reg_title {
+    width: 200px;
+    text-align: right;
+    font-weight: 500;
+}
+
+.form_int_1 input {
+    border-radius: 2px;
+    width: 320px;
+}
+
+.form_int_1 select {
+    border-radius: 3px;
+    width: 320px;
+}
+
+#int_reg_checkbox {
+    height: 27px;
+    width: 19px;
+    text-align: right;
+}
+
+.checkbox_part {
+    /* width: 550px; */
+}
+
+.Final_part_reg {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-top: 40px;
+}
+
+.send_button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.TandC_text {
+    font-size: 18px;
+}
+
+.send_button button {
+    width: 100px;
+    font-size: 20px;
+    border-radius: 5px;
+    background: deepskyblue;
+    color: white;
+    filter: drop-shadow(2px 2px 2px black);
+    border: 2px solid white;
+    margin-bottom: 5%;
+}
+
+.Final_part_reg {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media  only screen and (max-width:576px) {
+
+    .full_int_reg_section {
+        width: 90vw;
+    }
+    .Final_part_reg {
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    .TandC_text {
+        font-size: 13px;
+    }
+    
+}

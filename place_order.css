@@ -1,0 +1,287 @@
+.billiing_address {
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.final_billing_address {
+    border: 1px solid #D3D3D3;
+    width: 45%;
+    margin-top: 25px;
+    border-radius: 10px;
+    height: 195px;
+}
+
+.billing-method {
+    margin-top: 50px;
+}
+
+.billing-method h4 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.Information_details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    color: #777;
+}
+
+.customer_mail {
+    margin-top: 15px;
+    color: #777;
+}
+
+.Place_order_MAIN {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.place_order-full_section {
+    width: 60%;
+}
+
+.Place_Order {
+
+    margin-top: 40px;
+}
+
+.checkBOX {
+    margin-top: 30px;
+    display: flex;
+}
+
+.checkBOX h4 {
+    font-size: 15px;
+    color: green;
+}
+
+.checkBOX input {
+    height: 18px;
+    width: 25px;
+}
+
+.placeorder_text {
+    margin-top: 30px;
+    width: 70%;
+}
+
+.placeorder_text p {
+    font-size: 13px;
+}
+
+.Place_order_btn {
+    margin-top: 40px;
+}
+
+.Place_order_btn button {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background: #73d740;
+    color: honeydew;
+    font-size: 19px;
+
+}
+
+.Place_order_btn button:hover {
+    transform: scale(1.1);
+}
+
+.shopping_details_placeOrder {
+    margin-right: 150px;
+    margin-top: 200px;
+}
+
+.Billing_text {
+    margin-top: 30px;
+}
+
+/* shopping details */
+.shopping_details {
+    width: 45%;
+}
+
+.shopping-details_title {
+    background: #DEDEDE;
+    height: 80px;
+    /* width: 450px; */
+    /* border: 1px solid; */
+    font-size: 28px;
+    padding-top: 17px;
+    padding-left: 20px;
+    font-weight: 300;
+}
+
+.shopping_details_type {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.shopping_details_type span {
+    font-weight: 600;
+    color: indianred;
+}
+
+.shopping_details_summery {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    background: #DEDEDE;
+    height: 130px;
+    /* width: 450px; */
+    margin-top: 2px;
+    /* border: 1px solid; */
+}
+
+.shopping_details_summery img {
+    margin-top: 12px;
+    margin-left: 25px;
+}
+
+.shopping_details_price {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.coupon {
+    height: 100px;
+    background: #DEDEDE;
+    margin-top: 2px;
+    padding-left: 16px;
+    padding-top: 7px;
+}
+
+.coupon h4 {
+    font-size: 20px;
+    color: green;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+.enter_here {
+    padding-left: 12px;
+    margin-top: 8px;
+}
+
+.enter_here input {
+    border: none;
+    height: 35px;
+    margin-left: 10px;
+    max-width: 168px;
+    min-width: 60px;
+    /* border-radius: 5
+px
+; */
+    /* margin-left: 5 px; */
+}
+
+/* .OK_BUTTON {
+    width: 50px;
+} */
+
+.enter_here span {
+    font-weight: 600;
+}
+
+.subtotal_calculation {
+    display: flex;
+}
+
+.subtotal {
+    background-color: #DEDEDE;
+    margin-top: 2px;
+    padding-top: 10px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.subtotal_calculation h4 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.subtotal_calculation span {
+    margin-left: auto;
+}
+
+.Payment_due {
+    background: #DEDEDE;
+    margin-top: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.GBP {
+    margin-left: auto;
+    font-weight: 500;
+}
+
+.Payment_due h2 {
+    font-size: 18px;
+}
+
+.Payment_due span {
+    padding-left: 9px;
+    font-size: 20px;
+    font-weight: 600;
+    color: green;
+    margin-top: -2px;
+}
+
+@media only screen and (min-width:1020px) and (max-width:1100px) {
+
+    .Place_order_MAIN {
+        width: 90%;
+    }
+
+    .shopping_details {
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width:576px) {
+    .Place_order_MAIN {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .shopping_details {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .final_billing_address {
+        width: 100%;
+    }
+
+    .checkBOX h4 {
+        font-size: 13px;
+    }
+
+    .placeorder_text {
+        width: 100%;
+    }
+
+    .enter_here {
+        margin-top: 8px;
+    }
+
+    .enter_here input {
+        min-width: 40px;
+    }
+}
