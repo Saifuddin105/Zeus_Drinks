@@ -5,6 +5,12 @@ function scrollRotate() {
   let image = document.querySelector(".scroll_text");
   image.style.transform = "rotate(" + window.pageYOffset / 2 + "deg)";
 }
+
+function scroll_to_div() {
+  var scroll_to_element = document.querySelector(".product_div1");
+  scroll_to_element.scrollIntoView();
+}
+
 const NS = document.querySelector(".N-s");
 const PS = document.querySelector(".P-s");
 const second_NS = document.querySelector(".second_NS");

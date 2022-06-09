@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
 
+
+html {
+  scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +24,7 @@ ul {
 .home_slider {
     background-color: #F2E9E1;
 
-    height: 95vh;
+    height: 100vh;
 }
 
 .topbar_item {
@@ -422,7 +427,7 @@ ul {
 
 .scrolltext {
     text-align: center;
-    margin-top: 215px;
+    margin-top: 230px;
 }
 
 .arrow_img {
@@ -431,6 +436,7 @@ ul {
     margin-top: 36px;
     height: 70px;
     animation: bounce 2s infinite;
+    cursor: pointer;
 }
 
 @keyframes bounce {
@@ -1521,9 +1527,18 @@ td, th {
 
 @media only screen and (max-width:576px) {
 
+    .continue_mobile_full {
+    padding: 0 10px !important;
+     
+}
+#send_code_btn {
+    width: 80% !important;
+}
+
 
     .incredible-taste_logo img , .keto-friendly_logo img, .gluten-free_logo img ,.vegan_friendly_logo img ,.protein_energy_logo img {
-    width: 45px;
+    width: 50px;
+    margin-left: 5px;
     
     
 }
@@ -1534,27 +1549,27 @@ td, th {
 .incredible-taste_logo {
     
     left: 10%;
-    top: 60%;
+    top: 70%;
 }
 .protein_energy_logo {
    
     left: 70%;
-    top: 60%;
+    top: 70%;
 }
 .keto-friendly_logo {
     
     left: 11%;
-    top: 43%;
+    top: 50%;
 }
 .vegan_friendly_logo {
    
     left: 72%;
-    top: 44%;
+    top: 50%;
 }
 .gluten-free_logo {
     
     left: 43%;
-    top: 50%;
+    top: 60%;
 }
 @keyframes float {
 	0% {
@@ -2162,6 +2177,9 @@ td, th {
 #footer_youtube_image {
     height: 28px;
 }
+.home_slider {
+    height: 100vh !important;
+}
 
 
 
@@ -2252,7 +2270,7 @@ td, th {
     }
 
     .scrolltext {
-        margin-top: 215px;
+        margin-top: 350px;
     }
 
     .r-text {
@@ -2456,7 +2474,7 @@ td, th {
     }
 
     .scrolltext {
-        margin-top: 190px;
+        margin-top: 460px;
     }
 
     .product_div1 {
@@ -2666,7 +2684,7 @@ td, th {
     }
 
     .scrolltext {
-        margin-top: 225px;
+        margin-top: 455px;
     }
 
     .product_div1 {
@@ -2872,7 +2890,7 @@ td, th {
     }
 
     .scrolltext {
-        margin-top: 270px;
+        margin-top: 530px;
     }
 
     .product_div1 {
@@ -3404,3 +3422,16 @@ td, th {
 .zeus_uppercase {
     text-transform: uppercase;
 }
+
+
+
+@media only screen 
+    and (device-width: 428px) 
+    and (device-height: 926px) 
+    and (-webkit-device-pixel-ratio: 3) { 
+
+           .scrolltext {
+               margin-top: 530px;
+           }
+
+    }
