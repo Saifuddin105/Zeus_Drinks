@@ -148,6 +148,7 @@
     height: 48px;
     background: #FFFFFF;
     cursor: pointer;
+    border: 1px solid black;
 }
 
 
@@ -162,6 +163,7 @@
     -moz-border-radius: 20px;
     height: 48px;
     background: #FFFFFF;
+    border: 1px solid black;
 
 }
 
