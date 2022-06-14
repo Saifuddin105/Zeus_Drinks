@@ -143,7 +143,8 @@
     margin-left: auto;
     margin-right: auto;
     width: 85%;
-    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
     height: 48px;
     background: #FFFFFF;
     cursor: pointer;
@@ -157,7 +158,8 @@
     margin-left: auto;
     margin-right: auto;
     width: 85%;
-    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
     height: 48px;
     background: #FFFFFF;
 

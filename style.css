@@ -427,7 +427,7 @@ ul {
 
 .scrolltext {
     text-align: center;
-    margin-top: 230px;
+    margin-top: 220px;
 }
 
 .arrow_img {
@@ -454,7 +454,7 @@ ul {
 }
 
 .product_div1 {
-    background: #9FD9E0;
+    background: white;
     margin-top: 140px;
     display: flex;
     justify-content: space-around;
@@ -462,7 +462,7 @@ ul {
 }
 
 .product_div2 {
-    background: #D3EACD;
+    background: white;
 
     display: flex;
     justify-content: space-around;
@@ -493,7 +493,7 @@ ul {
 .P1 h4, .P2 h4 {
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 55px;
-    color: #FFFFFF
+    color: cadetblue
 }
 
 .P3 h4, .P4 h4 {
@@ -3431,7 +3431,7 @@ td, th {
     and (-webkit-device-pixel-ratio: 3) { 
 
            .scrolltext {
-               margin-top: 530px;
+               margin-top: 450px;
            }
 
     }
