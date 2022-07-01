@@ -41,3 +41,6 @@ const validateInputs_contact_us = () => {
     setSuccess_contact_us(contact_us_email);
   }
 };
+
+document.querySelector("#contact_us_checkbox_1").checked = "true";
+document.querySelector("#contact_us_checkbox_2").checked = "true";

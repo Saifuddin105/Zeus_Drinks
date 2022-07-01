@@ -1523,6 +1523,11 @@ td, th {
     margin-bottom: 80px;
 }
 
+#maintainded_by {
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
 /* modal tnc */
 
 
