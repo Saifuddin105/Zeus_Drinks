@@ -1,17 +1,3 @@
-// const accordion_label = document.querySelector(".accordion_label");
-// const accordion_content = document.querySelector(".accordion_content");
-// const accordion_input = document.querySelector(".accordion_input");
-
-// accordion_label.addEventListener("click", (e) => {
-//   console.log("afa");
-//   if (accordion_input.checked == true) {
-//     accordion_content.style.display = "none";
-//   } else {
-//     accordion_content.style.display = "block";
-//   }
-// });
-
-// product wrapper functionality
 const sub_tab = document.querySelector(".subscription_tab");
 const one_time_tab = document.querySelector(".onetime_tab");
 const sub_tab_info = document.querySelector(".sub_tab_info");
@@ -58,7 +44,7 @@ accordionItemHeaders.forEach((accordionItemHeader) => {
 
 // add to cart
 const addtocart = document.querySelector(".addtocart_sidebar");
-const sidebar_close_btn = document.querySelector(".sidebar_top_btn");
+const sidebar_close_btn = document.querySelector("#sidebar_top_btn");
 const sidebar_blur = document.querySelector(".sidebar_blur");
 
 function addTocart() {

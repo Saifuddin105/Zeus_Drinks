@@ -1520,6 +1520,7 @@ td, th {
     background: crimson;
     font-size: 18px;
     cursor: pointer;
+    margin-bottom: 80px;
 }
 
 /* modal tnc */
@@ -1924,7 +1925,7 @@ td, th {
         font-size: 11px !important;
     }
 
-    element.style {}
+   
 
     #contact_details_3 {
         font-size: 11px !important;
@@ -2684,7 +2685,7 @@ td, th {
     }
 
     .scrolltext {
-        margin-top: 455px;
+        margin-top: 320px;
     }
 
     .product_div1 {
