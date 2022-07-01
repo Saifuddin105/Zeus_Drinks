@@ -428,6 +428,7 @@
     padding: 12px;
     height: 44px;
     width: 100%;
+    -webkit-appearance: none;
 }
 
 .send_code_section {
@@ -463,6 +464,7 @@
     height: 41px;
     box-sizing: content-box;
     width: 100%;
+    color: grey;
 }
 .login_mobile_codes h4 {
         margin-bottom: 12px;
