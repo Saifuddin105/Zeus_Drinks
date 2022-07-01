@@ -434,7 +434,7 @@
 .send_code_section {
     display: flex;
     padding: 5px 20px;
-    justify-content: center;
+    
 }
 #send_code_id {
     color: rgb(22, 24, 35);

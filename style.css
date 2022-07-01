@@ -1535,6 +1535,9 @@ td, th {
 #send_code_btn {
     width: 65% !important;
 }
+.send_code_section {
+    justify-content: center;
+}
 
 
     .incredible-taste_logo img , .keto-friendly_logo img, .gluten-free_logo img ,.vegan_friendly_logo img ,.protein_energy_logo img {
