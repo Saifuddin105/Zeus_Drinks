@@ -434,6 +434,7 @@
 .send_code_section {
     display: flex;
     padding: 5px 20px;
+    justify-content: center;
 }
 #send_code_id {
     color: rgb(22, 24, 35);
@@ -446,7 +447,7 @@
     font-size: 16px;
     height: 44px;
     caret-color: rgb(254, 44, 85);
-    width: 62%;
+    width: 63%;
     
 }
 #send_code_btn {
